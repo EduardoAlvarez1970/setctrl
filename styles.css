@@ -1,0 +1,15 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #0e0e0e;
+  color: #e5e5e5;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+
