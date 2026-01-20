@@ -80,16 +80,17 @@ hr {
 }
 
 .listen button {
-  background: none;
-  border: none;
+  all: unset; /* resetea TODO lo que el navegador aplica por defecto */
   color: #e5e5e5;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.08em;
   cursor: pointer;
   opacity: 0.6;
+  display: inline-block; /* necesario después de all: unset */
   padding: 0;
 }
+
 
 .listen button:hover {
   opacity: 1;
